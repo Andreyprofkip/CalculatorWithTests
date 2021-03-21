@@ -1,2 +1,6 @@
+org\example\CheckingInfixExpressionTest.class
+org\example\MainTest.class
+org\example\InfixToPostfixTest.class
 org\example\StringsProviders.class
-org\example\TestCheckingInfixExpression.class
+org\example\CalculatorPostFixExpressionTest.class
+org\example\TransformatorWithNegativeNumbersInfixExpressionTest.class

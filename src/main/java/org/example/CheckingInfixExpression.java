@@ -1,14 +1,13 @@
 package org.example;
 
 import org.example.MyExceptions.IncorrectExpressionException;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class CheckingInfixExpression {
 
     public static void checking(String expression) throws IncorrectExpressionException{
-        String regex1 = "[^0-9-+\\()\\/*]";
+        String regex1 = "[^0-9-.+\\()\\/*]";
         Pattern pattern1 = Pattern.compile(regex1);
         Matcher matcher1 = pattern1.matcher(expression);
         if(matcher1.find()) throw new IncorrectExpressionException("Expression contains invalid characters");

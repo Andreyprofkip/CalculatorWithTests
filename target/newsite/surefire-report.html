@@ -72,12 +72,12 @@ function toggleDisplay(elementId) {
 <th>Success Rate</th>
 <th>Time</th></tr>
 <tr class="b">
-<td>8</td>
+<td>22</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
 <td>100%</td>
-<td>0,669</td></tr></table><br />
+<td>0,485</td></tr></table><br />
 <p>Note: failures are anticipated and checked for with assertions while errors are unanticipated.</p><br /></section><section>
 <h2><a name="Package_List"></a>Package List</h2><a name="Package_List"></a>
 <p>[<a href="#Summary">Summary</a>] [<a href="#Package_List">Package List</a>] [<a href="#Test_Cases">Test Cases</a>]</p><br />
@@ -92,12 +92,12 @@ function toggleDisplay(elementId) {
 <th>Time</th></tr>
 <tr class="b">
 <td><a href="#org.example">org.example</a></td>
-<td>8</td>
+<td>22</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
 <td>100%</td>
-<td>0,669</td></tr></table><br />
+<td>0,485</td></tr></table><br />
 <p>Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.</p><section>
 <h3><a name="org.example"></a>org.example</h3><a name="org.example"></a>
 <table border="1" class="bodyTable">
@@ -111,50 +111,150 @@ function toggleDisplay(elementId) {
 <th>Success Rate</th>
 <th>Time</th></tr>
 <tr class="b">
-<td><a href="#org.example.TestCheckingInfixExpression"><figure><img src="images/icon_success_sml.gif" alt="" /></figure></a></td>
-<td><a href="#org.example.TestCheckingInfixExpression">TestCheckingInfixExpression</a></td>
-<td>8</td>
+<td><a href="#org.example.CalculatorPostFixExpressionTest"><figure><img src="images/icon_success_sml.gif" alt="" /></figure></a></td>
+<td><a href="#org.example.CalculatorPostFixExpressionTest">CalculatorPostFixExpressionTest</a></td>
+<td>1</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
 <td>100%</td>
-<td>0,669</td></tr></table></section><br /></section><section>
+<td>0,375</td></tr>
+<tr class="a">
+<td><a href="#org.example.CheckingInfixExpressionTest"><figure><img src="images/icon_success_sml.gif" alt="" /></figure></a></td>
+<td><a href="#org.example.CheckingInfixExpressionTest">CheckingInfixExpressionTest</a></td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0,063</td></tr>
+<tr class="b">
+<td><a href="#org.example.InfixToPostfixTest"><figure><img src="images/icon_success_sml.gif" alt="" /></figure></a></td>
+<td><a href="#org.example.InfixToPostfixTest">InfixToPostfixTest</a></td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0,016</td></tr>
+<tr class="a">
+<td><a href="#org.example.MainTest"><figure><img src="images/icon_success_sml.gif" alt="" /></figure></a></td>
+<td><a href="#org.example.MainTest">MainTest</a></td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0,031</td></tr>
+<tr class="b">
+<td><a href="#org.example.TransformatorWithNegativeNumbersInfixExpressionTest"><figure><img src="images/icon_success_sml.gif" alt="" /></figure></a></td>
+<td><a href="#org.example.TransformatorWithNegativeNumbersInfixExpressionTest">TransformatorWithNegativeNumbersInfixExpressionTest</a></td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0</td></tr></table></section><br /></section><section>
 <h2><a name="Test_Cases"></a>Test Cases</h2><a name="Test_Cases"></a>
 <p>[<a href="#Summary">Summary</a>] [<a href="#Package_List">Package List</a>] [<a href="#Test_Cases">Test Cases</a>]</p><section>
-<h3><a name="TestCheckingInfixExpression"></a>TestCheckingInfixExpression</h3><a name="org.example.TestCheckingInfixExpression"></a>
+<h3><a name="CalculatorPostFixExpressionTest"></a>CalculatorPostFixExpressionTest</h3><a name="org.example.CalculatorPostFixExpressionTest"></a>
 <table border="1" class="bodyTable">
 <tr class="a">
 <td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
-<td><a name="TC_org.example.TestCheckingInfixExpression.checkingIncorrectSymbolsTestString1"></a>checkingIncorrectSymbolsTest{String}[1]</td>
-<td>0,205</td></tr>
-<tr class="b">
-<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
-<td><a name="TC_org.example.TestCheckingInfixExpression.checkingIncorrectSymbolsTestString2"></a>checkingIncorrectSymbolsTest{String}[2]</td>
-<td>0,008</td></tr>
+<td><a name="TC_org.example.CalculatorPostFixExpressionTest.checkPostfixToAnwerTestString1"></a>checkPostfixToAnwerTest{String}[1]</td>
+<td>0,171</td></tr></table></section><section>
+<h3><a name="CheckingInfixExpressionTest"></a>CheckingInfixExpressionTest</h3><a name="org.example.CheckingInfixExpressionTest"></a>
+<table border="1" class="bodyTable">
 <tr class="a">
 <td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
-<td><a name="TC_org.example.TestCheckingInfixExpression.checkingIncorrectSymbolsTestString3"></a>checkingIncorrectSymbolsTest{String}[3]</td>
-<td>0,012</td></tr>
+<td><a name="TC_org.example.CheckingInfixExpressionTest.checkingIncorrectSymbolsTestString1"></a>checkingIncorrectSymbolsTest{String}[1]</td>
+<td>0</td></tr>
 <tr class="b">
 <td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
-<td><a name="TC_org.example.TestCheckingInfixExpression.checkingIncorrectSymbolsTestString4"></a>checkingIncorrectSymbolsTest{String}[4]</td>
-<td>0,004</td></tr>
+<td><a name="TC_org.example.CheckingInfixExpressionTest.checkingIncorrectSymbolsTestString2"></a>checkingIncorrectSymbolsTest{String}[2]</td>
+<td>0</td></tr>
 <tr class="a">
 <td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
-<td><a name="TC_org.example.TestCheckingInfixExpression.checkingIncorrectSymbolsTestString5"></a>checkingIncorrectSymbolsTest{String}[5]</td>
-<td>0,004</td></tr>
+<td><a name="TC_org.example.CheckingInfixExpressionTest.checkingIncorrectSymbolsTestString3"></a>checkingIncorrectSymbolsTest{String}[3]</td>
+<td>0</td></tr>
 <tr class="b">
 <td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
-<td><a name="TC_org.example.TestCheckingInfixExpression.checkingIncorrectSymbolsTestString6"></a>checkingIncorrectSymbolsTest{String}[6]</td>
-<td>0,004</td></tr>
+<td><a name="TC_org.example.CheckingInfixExpressionTest.checkingIncorrectSymbolsTestString4"></a>checkingIncorrectSymbolsTest{String}[4]</td>
+<td>0</td></tr>
 <tr class="a">
 <td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
-<td><a name="TC_org.example.TestCheckingInfixExpression.checkingIncorrectSymbolsTestString7"></a>checkingIncorrectSymbolsTest{String}[7]</td>
-<td>0,004</td></tr>
+<td><a name="TC_org.example.CheckingInfixExpressionTest.checkingIncorrectSymbolsTestString5"></a>checkingIncorrectSymbolsTest{String}[5]</td>
+<td>0</td></tr>
 <tr class="b">
 <td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
-<td><a name="TC_org.example.TestCheckingInfixExpression.checkingIncorrectSymbolsTestString8"></a>checkingIncorrectSymbolsTest{String}[8]</td>
-<td>0,012</td></tr></table></section><br /></section>
+<td><a name="TC_org.example.CheckingInfixExpressionTest.checkingIncorrectSymbolsTestString6"></a>checkingIncorrectSymbolsTest{String}[6]</td>
+<td>0</td></tr>
+<tr class="a">
+<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
+<td><a name="TC_org.example.CheckingInfixExpressionTest.checkingIncorrectSymbolsTestString7"></a>checkingIncorrectSymbolsTest{String}[7]</td>
+<td>0</td></tr>
+<tr class="b">
+<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
+<td><a name="TC_org.example.CheckingInfixExpressionTest.checkingIncorrectSymbolsTestString8"></a>checkingIncorrectSymbolsTest{String}[8]</td>
+<td>0</td></tr>
+<tr class="a">
+<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
+<td><a name="TC_org.example.CheckingInfixExpressionTest.checkingDoubleSymbolsTestString1"></a>checkingDoubleSymbolsTest{String}[1]</td>
+<td>0,016</td></tr>
+<tr class="b">
+<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
+<td><a name="TC_org.example.CheckingInfixExpressionTest.checkingDoubleSymbolsTestString2"></a>checkingDoubleSymbolsTest{String}[2]</td>
+<td>0</td></tr>
+<tr class="a">
+<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
+<td><a name="TC_org.example.CheckingInfixExpressionTest.checkingDoubleSymbolsTestString3"></a>checkingDoubleSymbolsTest{String}[3]</td>
+<td>0</td></tr>
+<tr class="b">
+<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
+<td><a name="TC_org.example.CheckingInfixExpressionTest.checkingDoubleSymbolsTestString4"></a>checkingDoubleSymbolsTest{String}[4]</td>
+<td>0,016</td></tr></table></section><section>
+<h3><a name="InfixToPostfixTest"></a>InfixToPostfixTest</h3><a name="org.example.InfixToPostfixTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
+<td><a name="TC_org.example.InfixToPostfixTest.checkingInfixToPostfixTestString1"></a>checkingInfixToPostfixTest{String}[1]</td>
+<td>0</td></tr>
+<tr class="b">
+<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
+<td><a name="TC_org.example.InfixToPostfixTest.checkingNegativeInfixToPostfixTestString1"></a>checkingNegativeInfixToPostfixTest{String}[1]</td>
+<td>0</td></tr></table></section><section>
+<h3><a name="MainTest"></a>MainTest</h3><a name="org.example.MainTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
+<td><a name="TC_org.example.MainTest.checkCatchNanexceptionString1"></a>checkCatchNanexception{String}[1]</td>
+<td>0,015</td></tr>
+<tr class="b">
+<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
+<td><a name="TC_org.example.MainTest.checkCatchNanexceptionString2"></a>checkCatchNanexception{String}[2]</td>
+<td>0</td></tr>
+<tr class="a">
+<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
+<td><a name="TC_org.example.MainTest.checkCatchNanexceptionString3"></a>checkCatchNanexception{String}[3]</td>
+<td>0</td></tr>
+<tr class="b">
+<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
+<td><a name="TC_org.example.MainTest.checkCatchNanexceptionString4"></a>checkCatchNanexception{String}[4]</td>
+<td>0</td></tr>
+<tr class="a">
+<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
+<td><a name="TC_org.example.MainTest.shouldProcessUserInput"></a>shouldProcessUserInput</td>
+<td>0</td></tr>
+<tr class="b">
+<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
+<td><a name="TC_org.example.MainTest.checkGetAnswerString1"></a>checkGetAnswer{String}[1]</td>
+<td>0,016</td></tr></table></section><section>
+<h3><a name="TransformatorWithNegativeNumbersInfixExpressionTest"></a>TransformatorWithNegativeNumbersInfixExpressionTest</h3><a name="org.example.TransformatorWithNegativeNumbersInfixExpressionTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><figure><img src="images/icon_success_sml.gif" alt="" /></figure></td>
+<td><a name="TC_org.example.TransformatorWithNegativeNumbersInfixExpressionTest.checkPostfixToAnwerTestString1"></a>checkPostfixToAnwerTest{String}[1]</td>
+<td>0</td></tr></table></section><br /></section>
       </div>
     </div>
     <div class="clear">
