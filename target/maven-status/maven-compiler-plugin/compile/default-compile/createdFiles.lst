@@ -1,0 +1,7 @@
+org\example\CheckingInfixExpression.class
+org\example\MyExceptions\NanException.class
+org\example\Main.class
+org\example\CalculatorPostFixExpression.class
+org\example\InfixToPostfix.class
+org\example\TransformatorWithNegativeNumbersInfixExpression.class
+org\example\MyExceptions\IncorrectExpressionException.class
